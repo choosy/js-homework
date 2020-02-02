@@ -7,3 +7,14 @@ Then, add the following methods to the File object:
 - isFile() -> returns boolean. True if filePath points to a valid file on your filesystem. False if not.
 - fileType -> will return a string with the extension. For example "js". Or "txt".
 - moveTo(pathName) -> will actually move the file to the path specified by pathName.
+
+Important Note! The file objects here will be created with your constructor function like this
+
+let myfile = new MyFile('/Users/cah/js-training/exercise.js')
+
+Your object will only receive the path to the file, and everything else needs to be obtained using nodejs fs module: https://nodejs.org/api/fs.html
+
+
+So your constructor function will be MyFile(). The methods, getSize(), isFile(), fileType() and moveTo(), will need to extract the information just based on the path of the file.
+
+
