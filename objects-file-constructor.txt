@@ -1,0 +1,9 @@
+Create a constructor function that will be used to create File objects.
+The constructor function will have one parameter, called filePath.
+Inside the contructor, create and attached to "this" the filePath property that will be equal to the filePath parameter of the constructor.
+
+Then, add the following methods to the File object:
+- getSize() -> will return the size of the file
+- isFile() -> returns boolean. True if filePath points to a valid file on your filesystem. False if not.
+- fileType -> will return a string with the extension. For example "js". Or "txt".
+- moveTo(pathName) -> will actually move the file to the path specified by pathName.
