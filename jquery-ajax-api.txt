@@ -1,0 +1,7 @@
+* This is js for the browser.
+Make an html page, in which you include the jquery js library.
+Make a paragraph that says: No data.
+
+Make a button, that when pressed, it calls a function that uses ajax in jquery to call an api and write the response to the paragraph where no data was used.
+
+First, look for available or public APIs to use.

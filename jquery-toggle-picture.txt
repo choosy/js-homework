@@ -1,0 +1,9 @@
+* This is js for the browser.
+Make an html page, in which you include the jquery js library.
+Add an image to the body of the page.
+Also add a button (using button tag).
+
+When you click once on the button, it makes the image dissapear, and also the color of the button change to gray.
+When you click again, it makes button green and the picture appear.
+
+

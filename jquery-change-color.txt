@@ -1,0 +1,5 @@
+* This is js for the browser.
+Make an html page, in which you include the jquery js library.
+Make a paragraph in the body of the html page with a sentence
+Using jquery code, select the paragraph, and turn it's color to red, or any color you wish.  Also using jquery, add a border to the paragraph.
+

@@ -1,0 +1,7 @@
+* This is js for the browser.
+Make an html page, and a paragraph with the text: No data
+
+You will need to use the function that makes ajax/http requests that is builtin js, that when pressed a button will call an api and will save the response in a variable.
+That response will be some text that will replace the text No data from the above paragraph.
+
+Call this function that fetches the data on Button press.
