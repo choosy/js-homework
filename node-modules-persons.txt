@@ -1,0 +1,10 @@
+Make a js file, that defines an array of Person objects. Let's call it: persons-data.js
+
+Each Person object will be an object literal with person properties and their values: name, age, sex. Make the array having at least 3 person objects.
+
+Make a function, called getPerson(name), that will receive the name as an argument and will return the object from the array above corresponding to that name.
+
+Thinking this file will be used as a module, export the getPerson(name) but do not export the array of persons.
+
+Make another file, for example find-persons.js that will import (with require) the getPerson() from the first module/file and show how it can be used to find persons by name.
+
