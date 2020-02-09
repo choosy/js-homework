@@ -1,0 +1,7 @@
+Put the function File made in the exercise object-file-constructor.js in a module and export it.
+Then make another file, for example, get-file-info.js that will import the function File that you export it above.
+
+And use it to get informations about a file.
+
+You can export the function File either in the existing file object-file-constructor.js, or make another one, however you choose.
+
