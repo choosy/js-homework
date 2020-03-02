@@ -1,0 +1,11 @@
+Create a constructor function that will be used to create person objects.
+
+The person objects need to have: first name, last name, age.
+
+Use the constructor function to validate that the first name has only letters, last name also has only letters, and age is a number between 0 and 160 :)
+
+Also, if first name has space before or after, like '  Cassia ' , then clean that space.
+
+So the constructor needs to receive three paramters, and those parameters will be saved in the objects properties.
+
+

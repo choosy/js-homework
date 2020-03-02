@@ -1,0 +1,41 @@
+We imagine that we build a javascript application server, like Express.
+Since this is a server, it will run as a web server and receive HTTP requests. So this means that we will receive requests like
+
+GET https://example.com/teachers/1
+
+or
+
+POST https://example.com/teachers/create
+
+
+We want to make a Route constructor, that makes objects (of type Route) that will receive these requests and analyze them and split them into parts and assign these parts to properties.
+
+So for example, you will make a route like:
+
+let route = Route("POST https://example.com/teachers/create")
+
+Then the Route constructor will create an object with these properties:
+
+method -> POST
+hostname -> example.com
+protocol -> https
+
+urlPath -> /teachers/create
+
+parameters -> empty object
+
+
+If you do
+
+GET https://example.com/teachers/1
+
+This will create a constructor with these properties
+
+method -> GET
+hostname -> example.com
+protocol -> https
+urlPath -> /teachers/1
+parameters -> [1]
+
+This is just an example, the Routes in Express are not exactly like this, but it gives us an idea about how we can go about it.
+

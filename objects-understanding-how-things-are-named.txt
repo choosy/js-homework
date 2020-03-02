@@ -1,0 +1,34 @@
+As we learn object oriented programming, it is useful to know what terms mean, how things are named.
+Things are a bit confusing, since different sources name or refer to things a bit different, but we'll try to clarify.
+
+What is property</
+according to MDN web docs (https://developer.mozilla.org), "an object is a collection of properties and a property is an association between a key and a value"
+So that's why you have property name -> that is the key
+and property value -> that is the value
+
+A property's value can be a function, in which case the property is known as a method. In addition to objects that are predefined in the browser, you can define your own objects
+
+Read a little bit here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
+
+
+In Moshe's course, he insists to refer to properties as only the keys of an object that have values that are not functions.
+
+So Mosh uses these terms:
+ - all of the key/value pairs -> members of that object
+ - key/value pairs in which values are not functions -> properties
+ - key/value pairs in which values are functions -> methods
+
+In MDN and other tutorials (and also the way I use) you have:
+ - all of key/value pairs -> properties
+ - key/value pairs in which values are not functions -> I don't know. also properties? maybe attributes??
+ - key/value pairs in which values are functions -> methods
+
+
+Conclusion, the simplest way to remember is like this:
+
+#################################################### Remember this #####################################
+
+property is the key in the object, and the property value is the value for that key
+methods are properties that have as values functions
+
+########################################################################################################
