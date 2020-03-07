@@ -1,0 +1,47 @@
+This exercises the chapters:
+Objects -> 10. Abstraction
+Objects -> 11. Private Properties and Methods
+
+
+Modify the Person() constructor, from the objects-constructor-person that starts like this:
+
+function Person(firstName, lastName, age) {
+}
+
+and move the function declarations isValidName(), isValidAge(), and removeSpaces(), inside the Person() constructor.
+Does it still work?
+
+While you might be tempted to make isValidName(), isValidAge() and removeSpaces() methods, you don't have to.
+In fact, in this case if you don't make them methods (just functions inside the constructor), you can still use them for validation inside the constructor, which is what you need.
+
+But they are not methods of the object so you cannot ue them from outside the constructor, by calling these functions on the object.
+
+This is like similar to making them private methods in other languages. So the result is that can be used inside the object constructor but not outside.
+
+Also, modify the object properties instead to have this.frstName and this.lastName, to only set this.name. But keep the constructor parameters firstName and lastName.
+
+This shows that although the constructor has some paramters (firstName, lastName, age), the end object, doesn't have the same.
+so you can do
+this.name = isValidName(firstName) + ' ' + isValidName(lastName)
+this.age = isValidName(age)
+
+
+This is called abstraction. You sepparate the things that are complex and you need to deal with inside the object, from the code that is outside the object, the code that makes and uses const person = new Person()
+
+So for example, if you do
+
+const person = new Person()
+
+You can only use
+
+person.name
+person.age
+
+Which is OK, we say about it that it has a simple interface. Interface is the way you use the object from outside (using the person variable in this case).
+
+So you won't be able to use from outside more complex functions or properties that you might not need:
+person.firstName -> won't exist anymore
+person.lastName -> won't exist anymore
+person.isValidName(...) -> also won't exist
+
+
