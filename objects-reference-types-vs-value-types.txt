@@ -1,0 +1,30 @@
+List in the comment in the beginning of the exercise which are the value types (primitives) in JS and which are the Reference Types.
+
+1. Demonstrate how value types (primitives) are copied by value
+
+Create an example in which a variable is declared and points to a value type.
+Then a second variable is declared that points to the first variable.
+Change the second variable's value, and show what happened with the value of the first variable.
+
+
+2. Demonstrate how reference types are copied by reference.
+
+Similar to Step 1, create a variable that points this time to a reference type.
+Create a second variable that points to the first variable.
+Change the second variable's value and show what happened with the value of the first variable.
+
+
+3. Demonstrate how value types (primitives) are copied by value in parameter functions
+
+Make a function that receives a parameter. Increment the value of the parameter in the body of the function.
+Outside the function, declare a variable that holds a number. Then pass that variable as a parameter to the function call above.
+After the function call has been made, outside the function, console.log the original variable. Has it changed?
+
+
+4. Demonstrate how reference types are copied by reference in paramter functions
+Similar to exercise 3. make a function that receives a parameter. This parameter will in fact be an object with a property called value (that's how this function will be called. So inside the function, increase the value property of the parameter.
+Call this function with a variable that holds an object, with the value property.
+
+After the function call, outside the function, console.log the original object. Has it changed?
+
+
