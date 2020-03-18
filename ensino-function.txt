@@ -1,0 +1,14 @@
+Create a function that receives a string like:
+
+1EF -> and returns a string like -> 1 ano de ensino fundamental
+
+our
+
+2EF -> 2 ano de ensino fundamental
+
+
+3EM -> 3 anoi de ensino medio.
+
+
+Without using an object with keys and values. Just with string transformation.
+
