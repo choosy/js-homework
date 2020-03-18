@@ -1,0 +1,9 @@
+Create a folder to test the ES6 modules in the browser. Something like es6modules-basics.
+Create there an index.html and a script.js file, and write the script tag in index.html to include the script.js
+Create another js file, called course.js which will have a Course constructor.
+
+Either using the ES6 import syntax from the browser, or if it doesn't work setup Babel, and import the Course constructor inside the script.js
+
+
+Then, in script.js, create a few Course objects.
+

@@ -1,0 +1,19 @@
+This exercise will demonstrate how commonjs modules work (require), and how to import and export.
+
+It has two variants.
+
+1. Export with exports
+2. Export with module.exports
+
+
+1. Create a file called objects-import-commonjs-course1.js in which you make a Course constructor
+-> so a Course function that will create Course objects. This constructor will be exported using "exports".
+
+This Course constructor will receive as parameters: title, description, price, keywords.
+
+Create a file called objects-import-commonjs-use-course.js in which you import the Course constructor and you make a few objects.
+
+2. Similar to 1. create a file objects-import-commonjs-course2.js in which you copy-paste the constructor from 1., so same constructor, but export it with module.exports.
+
+This time modify objects-import-commonjs-use-course.js to import from objects-import-commonjs-course2.js.
+
