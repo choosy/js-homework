@@ -1,0 +1,18 @@
+Create a curl command for every URL of the launchbase-desafio-foodfy-with-data project.
+
+Make one file in wich you record (you paste) the contents of the request and response like this:
+
+- first line of request and request headers
+- response headers
+- response body
+
+Similar to how they appear in Firefox's Network TAB.
+
+Use in your shell: man curl
+to read more about the curl options. When you use man, you enter in what is called a SHELL PAGER.
+A shell pager is a program meant to read inside shell. Example of shell pagers are: less, more.
+Commands to navigate in less pager:
+q to quit
+Ctrl+D to scroll half screen down
+Ctrl+U to scroll half screen up
+/text to search for text -> press "n" for next occurrence down, press "N" for next occurrence up
