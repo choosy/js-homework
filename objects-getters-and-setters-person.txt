@@ -1,0 +1,16 @@
+Modify the constructor Person() in exercise objects-abstraction-and-private-properties.js to use getters and setters for setting firstName, lastName and age properties to Person objects.
+
+In this exercise, the Person() constructor will not receive any arguments. Instead, the user of the object (the code part that creates and uses the object) will set properties one by one.
+Also add name as a read only property.
+
+For example
+
+let john_doe = Person()
+john_doe.firstName = '  John  ' // will be validated and stripped from spaces under the hood
+john_doe.lastName = 'Doe' // will be validated and stripped from spaces under the hood
+john_doe.age = 23 // will be validated under the hood
+
+john_doe.name = 'Jonica Donica' // will throw an error since name is a read-only property
+
+console.log(john_doe.name) // will console log 'John Doe'
+
