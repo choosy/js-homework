@@ -1,0 +1,13 @@
+Create a new object of type Stopwatch using the constructor method for creating objects.
+
+The objects of type Stopwatch will have one property: duration
+And three methods: reset, start, stop.
+
+The object should work like a stopwatch:
+- when you start it, it will start counting time
+- if you wanna start it again it gives an error
+- when you stop it it stops counting the time
+- when you access the duration it gives you the time passed since the counter was started until the moment the counter was stopped
+- if you start it again, and then stop it, it will add this duration of time passed to the previous duration of time passed. So if you did start at 07:54am and you stop at 07:55am (1 minute) then you start again at 8:00am and stop at 8:01am (1 more minute), and then you access duration, it will give you 2 mins
+- if you press reset, the whole duration is reset to zero
+
