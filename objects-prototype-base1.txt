@@ -1,0 +1,35 @@
+This exercise has two parts:
+
+1. First part
+
+Create two objects using the object literal syntax.
+Each object will represent a course, so call the variable that will store the objects: course1 and course2.
+The properties that the objects will have are: title, author and price.
+
+After that, define two more variables, called parent1 and parent2.
+parent1 make it to be the prototype (parent) of course1.
+parent2 make it to be the prototype (parent) of course2
+
+Then console log parent1,  and console log parent2.
+Then console log parent1 === parent2.
+
+This will prove who is parent1, who is parent2 and if they are equals.
+Think of the signification of parent1/parent2. Who is it?
+
+Before each console.log(), write another console.log() that shows as a string what you're console logging.
+
+For example:
+console.log('parent1 === parent2')
+console.log(parent1 === parent2)
+
+2. Second part
+
+Create, in the same file, an object, this time using the constructor syntax, with a constructor called FancyCourse.
+This FancyCourse object will have two methods.
+toString() -> will return a string with the title property of the current object
+convertPrice() -> will use the price attribute of the current object, and convert a USD price to a REAL price and return it
+
+
+Afterwards, set as a prototype for course1, a new FancyCourse object. and try the toString() and convertPrice() for course1.
+Then try (without changing the prototype) the same toString() and convertPrice() for course2.
+
