@@ -1,0 +1,54 @@
+Create a constructor function called Course. This will be of course used to make objects of type Course.
+Add two methods to the Course objects (so inside the constructor, right?)
+
+A method called whoami() -> which will do a console.log the text "I am an object of type Course"
+A method called toString() -> which will RETURN the property title of the current object.
+
+
+Now, define two variable course1 and course2 of type.
+IMPORTANT: Before each console.log, please console.log first a string with what you're actually console logging
+
+console.log the equality between them (==). so between the two objects, course1 and course2
+then console log the prototype of course1. and console log the prototype of course2
+
+So then console log the equality of the prototype of the course1 and course2.
+What is the conclusion? The objects made from the same constructor, have the same...
+
+###################### about the weird courseBase object #######################
+
+That "weird" object that you see in the console.log, with a property called constructor, is what Mosh would call a courseBase object.
+That is not a Course object (so it is NOT like course1 and course2), that is a courseBase object, or, more clearly, it is the prototype of all objects made from the Course constructor.
+
+################################################################################
+
+Then try to call the method whoami() on course1, then call whoami() on course2().
+This simply shows that the method whoami() can be called on both objects. Which is normal, because they were both the same type (made from the same constructor).
+Then, out of curiosity, try to call course1.__proto__.whoami(). Does it work? It does not. because course1 and course1.__proto__ is not the same object
+
+Next, try to find out and console log the prototype of the prototype of course1. And the prototype of the prototype of course2. Are they equal?
+
+Now create another constructor called FancyCourse with two parameters, title and price.
+Set the properties of the current object from these parameters. So then all objects of type FancyCourse() will ahve the title and the price parameters.
+
+make two variables fancyCourse1 and fancyCourse2. console.log the prototype of each. Who will be their prototype? Are their prototypes equals?
+Now console log fancyCourse1.title and fancyCourse2.title and fancyCourse2.title and fancyCourse2.title
+
+Try also for fancyCourse1 (for 2 e a mesma coisa) to call fancyCourse1.whoami(). Will it work? Why, or why not?
+Now try fancyCourse1.toString(), what do you see?
+
+Document in your comments what you see and your conclusions.
+
+Now, make course1 the prototype of fancyCourse1, and course2 the prototype of fancyCourse2.
+
+Now, console log again fancyCourse1.toString(). What do you see? Console log fancyCourse1.whoami(). works now? Why?
+Now add a convertPrice() method (the one from the objects-prototype-base1 exercise) to the Course() constructor. Will fancyCourse1 inherit that method as well?
+Can you try it?
+Same things for fancyCourse2.
+
+OK. now console.log the prototype of fancyCourse1. And the prototype of the prototype of fancyCourse1. and so on until you got an error. How many levels you could go?
+
+Now, again, who is the prototype of fancyCourse1? Can you call whoami() method on the prototype of fancyCourse1? Like fancyCourse1.__proto__.whoami()? it works? Why?
+Why it doesn't work to do course1.__proto__.whoami()? What is the conclusion?
+
+How would you describe the difference between the prototype of fancyCourse1 and the prototype of course1?
+
