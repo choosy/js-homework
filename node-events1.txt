@@ -1,0 +1,14 @@
+Import EventEmitter class and create an object of type EventEmitter.
+
+Name the variable of this object catcher. In English catcher would be someone that catches.
+You actually can call the variable as you wish, but calling it catcher will help remembering the fact that you use this object to catch events.
+
+These type of objects are used to:
+- emit events
+- then to catch the events you emitted (register a listener) and execute a function (the listener handler) when that happens.
+
+
+Use this object to emit an event called "courseSold" with the arg that represents a course, like id and title: for example {id: 3, title: "Object oriented JS with Mosh"}
+Then use the same object to catch this event and console.log the course that has been sold.
+
+

@@ -1,0 +1,6 @@
+Create a class Order that needs to inherit from the EventEmitter class.
+Augment that class with a method called process() (basically will process the order of selling a course on a website).
+This method process() will emmit an event called "orderProcessed" with an additional argument of a course object.
+
+In another file, import the Order class, create an object called myorder and use myorder to emmit the event and then to catch the event.
+
