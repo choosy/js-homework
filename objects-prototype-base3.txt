@@ -1,0 +1,19 @@
+Mosh class:
+
+Constructor Prototypes
+https://codewithmosh.com/courses/310571/lectures/4881223
+
+----
+
+We know that any object that we create has a prototype (we call it also parent) that we can find by using the __proto__ property.
+When we create an object using a constructor, the prototype of our object is another object that we call it for simplicity a "base".
+So for example if we create a mycircle object from a Circle() constructor, we call mycircle.__proto__ as circleBase (which is not the same as the constructor neither the object we create).
+
+What we need to demonstrate in this exercise is that the constructor of our object, the function Circle, has a property called prototype that is exactly circleBase.
+
+
+Demonstrate the above information with two kind of objects made from two constructors: Circle() and Person()
+
+Include the information in the Prototype Mindmap.
+
+
