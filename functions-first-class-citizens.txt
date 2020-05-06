@@ -1,0 +1,9 @@
+1. Write down as comment in this JS the theory around the functions being first class citizens in JS, the meaning of it.
+
+2. Then create an example to demonstrate all three points:
+- a function saved in a variable
+- a function that will be passed as an argument
+- a function that will be returned within another function
+
+3. Find in the JS documentation (or in a Node libary) one or two examples of the above, and write them in this exercise.
+
