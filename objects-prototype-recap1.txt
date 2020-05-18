@@ -1,0 +1,17 @@
+Review Mosh lesson "Prototypes and Prototypical inheritance"
+
+Note how Mosh is talking about an object he calls "baseObject".
+In some tutorials this is called the root object or the Object object, and is a unique object that is the last parent(prototype) of all objects in JS.
+
+Task:
+create two objects with the literal syntax, and console.log their prototype.
+Then console log the equality comparison (==) of their prototype.
+
+Who's their prototype? Are they equal?
+
+Use the toString() method on any of your objects. If you did not define the toString() method, why is it working?
+
+After completing the exercise, go line by line (read and then execute and observe console.log) through the exercise objects-prototype-base1.js and think if it makes sense.
+
+Use the Prototypes JS MindMap to support your conclusions: https://whimsical.com/FyZKGj3KRQgsQFvSFMX9ZZ
+

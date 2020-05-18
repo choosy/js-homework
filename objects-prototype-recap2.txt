@@ -1,0 +1,19 @@
+Review Mosh lesson "Multilevel inheritance": https://codewithmosh.com/courses/310571/lectures/4881221
+
+Use the Prototypes JS Mindmap to follow his lesson.
+
+See how he shows in the console what is the prototype of an array [], and he shows the methods of that prototype.
+Create an array, and do the same in the browser's console and choose 3 methods that belong to the Array prototype.
+
+Then in your exercise, apply those methods to the array, and show how they work on your array.
+You can follow this steps:
+- In browsers console, looking at array's prototype, you choose for example the method find()
+- You google: array find method mdn  (this can be a good pattern to get to the complete and technical description of any JS language feature. While sometimes complicated to understand, it is essential to get used with. Also, you can always look there in MDN for the examples first
+- You use the array find method in your code.
+
+Repeat this for 3 methods of the array.
+
+
+Choose two more objects in JavaScript, and do the same steps as above, to find out three methods in the console, find their MDN documentation, and make examples in your code.
+
+
