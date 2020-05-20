@@ -1,0 +1,21 @@
+Mosh lesson - Property descriptors
+
+https://codewithmosh.com/courses/310571/lectures/4881220
+
+
+Create an object called course with the following keys: id, price, name, description, author
+
+As you learned with Mosh, properties of objects have attributes, called property attributes. 
+It's almost like a property of an object has some tiny properties of its own. WTF???? :)
+
+These attributes determine if the property is: writable, enumerable, configurable (can delete the property??)
+
+
+With using these  attributes make the course object in such a way that:
+- you cannot change the properties: id, price, name
+- you cannot delete the properties: id, name
+- when you iterate over the properties (keys) of this object, you do not see the id, you only see the rest of them.
+
+
+
+

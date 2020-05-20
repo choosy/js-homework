@@ -1,0 +1,13 @@
+Constructor Prototypes - Mosh shows here about the prototype property of the constructor functions
+https://codewithmosh.com/courses/310571/lectures/4881223
+
+
+Create:
+- an object literal
+- an array object
+- a custom Course object using a Course constructor
+
+
+In all three cases, console.log the parent (prototype) of each object newly created.
+Then show that the parent of each object (prototype of each object) is equal to the prototype property of the constructor that created each object.
+
