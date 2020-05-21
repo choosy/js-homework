@@ -1,0 +1,21 @@
+Prototype vs Instance members
+https://codewithmosh.com/courses/310571/lectures/4881222
+
+
+Mosh here shows how to actually add members (properties/methods) to the prototype (parent) of your object, that will then be accessible to your instance.
+Then from a method of the prototype you can access methods of the object, and the other way around.
+
+
+Create an object from a Course constructor, with arguments: price, title, description, so the constructor will set
+these properties to the object.
+
+Then attach a toString to a prototype of a Course, so that when you call course.toString() it will show:
+'Course "JS objects" with price 25 USD'
+
+Also attach to the prototype a method called priceToReais() that will return the price property of the current object, multiplied with 5.69.
+
+Then modify the toString method, to have the course displayed like:
+
+'Course "JS objects" with price 25 USD (142.25 reais)'
+
+
