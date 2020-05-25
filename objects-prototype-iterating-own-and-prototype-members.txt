@@ -1,0 +1,16 @@
+// https://codewithmosh.com/courses/310571/lectures/4881225
+
+Iterating Instance and Prototype Members
+
+Create a Course constructor, like in objects-prototype-members.js with members: price, title, description
+
+Also, like in objects-prototype-members.js add the priceToReais and toString methods to the Course.prototype.
+
+But add another method to the Course instance (so inside the constructor), that is called makeTitle() that will return a string with the title and price of the course.
+
+Now iterate over the own (instance only) members of the object, and add them to an array, that is called ownMembers.
+
+Iterate over all members (own members and prototype members) and add them to a different array called allMembers.
+
+Use the Jasmine test framework to test that ownMembers and allMembers is correct.
+
