@@ -1,0 +1,23 @@
+// Creating your own prototypical inheritance: https://codewithmosh.com/courses/310571/lectures/4881270
+// Resetting the Constructor: https://codewithmosh.com/courses/310571/lectures/4881275
+
+Use the Course object from objects-prototype-iterating-own-and-prototype-members.js exercise.
+
+But this time, create also another object, called Product.
+
+Attach the priceToReais() method to the Product.prototype (instead of the Course.prototype).
+
+Then make the courseBase (so Course.prototype) inherit from Product.prototype -> with Object.create
+Make sure you "reset the constructor" as Mosh explains in the resetting the constructor lesson.
+
+Using jasmine, test that if you create a course with the price of 10 (default 10 USD), then the course.priceToReais() will return 56.9
+
+Also add a toString method to the Product.prototype, and then using jasmine, test that when you convert a course object to String, you get what is expected.
+
+
+Create another object, with a constructor called TShirt. The same as with the course, make the tShirtBase (that is TShirt.prototype) to inherit from the Product.prototype -> with Object.create
+
+Also add in your jasmine tests that the tshirt.priceToReais() is the correct one, and also converting tshirt objects to String is the correct one.
+
+Name your spec file in a way so that you can easily connect it with the exercise.
+

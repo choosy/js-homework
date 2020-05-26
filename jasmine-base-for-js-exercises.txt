@@ -1,0 +1,4 @@
+Fix the tests in js-exercises/spec/ so that all tests pass on the command: jasmine
+
+Also, re-organize the naming or description of the tests, so they look nice, and remove the sum test as it is too simple. Or leave it there if it is a good example for you.
+
