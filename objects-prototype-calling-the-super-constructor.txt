@@ -1,0 +1,32 @@
+// https://codewithmosh.com/courses/310571/lectures/4881274
+
+
+Use the objects and prototypes created in the objects-prototype-prototypical-inheritance.js exercise.
+
+Modify the Tshirt constructor to have another parameter.
+So instead of size, price, title it will have size, price, title, description.
+
+But, instead of setting the property descriptor IN the Tshirt constructor, call the Product constructor with parameters price, title, description, and let the Product constructor set these three properties to this.
+Also, since Product constructor will set price and title as well, remove setting the properties price and title from the Tshirt.
+
+Explain how that works, in comments.
+
+Also, refactor to have only one toString function for all object types (Course, Tshirt, Product), and that toString function will be attached to the Product.prototype, who is the daddy of the Course.prototype and Tshirt.prototype.
+
+That will mean that when you call toString() on any course, or tshirt, and also product, the one that will be called is the Product.prototype.toString()
+
+Research if it's possible (I don't know) to take dynamically the name of the constructor of the current object that is being used.
+
+So then if you use course.toString() it will return something like
+Course Node with price 10 USD (56.9 reais)
+
+if you call tshirt.toString() it will return something like
+
+Tshirt Lambo to the Moon with price 10 USD (56.9 reais)
+
+and similar for product.
+
+Write tests, as before, for checking that:
+- toString is correct for all objects (3 tests)
+- Create a new Tshirt object in a course, and pass size, price, title, description and then the test should verify that the properties have been set correctly
+
