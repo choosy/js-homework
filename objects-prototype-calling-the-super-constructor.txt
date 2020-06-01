@@ -30,3 +30,4 @@ Write tests, as before, for checking that:
 - toString is correct for all objects (3 tests)
 - Create a new Tshirt object in a course, and pass size, price, title, description and then the test should verify that the properties have been set correctly
 
+

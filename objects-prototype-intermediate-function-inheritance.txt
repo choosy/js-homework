@@ -1,0 +1,16 @@
+// Intermediate function inheritance
+// https://codewithmosh.com/courses/310571/lectures/4881276
+
+Create the same constructors, Product, Course, Tshirt from te objects-prototype-calling-the-super-constructor.js
+
+This time, make an extend function that will be defined with two parameters Child, Parent.
+
+
+So instead of these two lines like this, use that extend(Child, Parent) function to create the prototypical inheritance:
+
+Tshirt.prototype = Object.create(Product.prototype)
+Tshirt.prototype.constructor = Tshirt
+
+
+Verify that it all works, with jest.
+

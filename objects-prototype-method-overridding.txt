@@ -1,0 +1,25 @@
+// Method overridding
+
+// https://codewithmosh.com/courses/310571/lectures/4881277
+
+Create the same constructors, Product, Course, Tshirt from te objects-prototype-calling-the-super-constructor.js
+
+Also use the extend function to define the prototypical inheritance like in the intermediate function inheritance exercise.
+
+
+Then create another method in the parent (the Product) constructor, method that is called sell().
+This should return a string like "The product with the title <use-the-current-object-title> has been sold at price <use-the-current-object-price>"
+
+Then override this method, the sell() method in the Course objects (using the Course.prototype) to change the string slightly.
+
+"The author for the course <course title> needs to be paid his author fee"
+
+Then modify it to return an array of strings. First string needs to come from calling the sell() method from his parent (Product). Second string will be the one above: "The author for the course <course title> needs to be paid his author fee"
+
+
+This will be the final version of the sell() method for Course.
+
+Use jest to test that the sell() for Product and Course return the right things.
+
+Also, without implementing a sell() in Tshirt, test that when you call tshirt.sell() then the sell() method in the Product.prototype is used.
+
