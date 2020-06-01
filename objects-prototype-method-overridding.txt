@@ -7,7 +7,7 @@ Create the same constructors, Product, Course, Tshirt from te objects-prototype-
 Also use the extend function to define the prototypical inheritance like in the intermediate function inheritance exercise.
 
 
-Then create another method in the parent (the Product) constructor, method that is called sell().
+Then create another method in the parent (the Product) prototype, method that is called sell().
 This should return a string like "The product with the title <use-the-current-object-title> has been sold at price <use-the-current-object-price>"
 
 Then override this method, the sell() method in the Course objects (using the Course.prototype) to change the string slightly.
