@@ -1,0 +1,16 @@
+Polymorphism
+
+// https://codewithmosh.com/courses/310571/lectures/4881278
+
+Continuing with the objects from the objects-prototype-method-overriding.js
+make a test that will have the code to create an array of objects like this
+[a course object, a tshirt object, another tshirt object, a product object]
+
+Initialize all these objects inside the test, and then define the array inside the test
+
+make another array, with the results (what comes from return) of calling the sell() method on each object in the array above.
+
+Make sure with the test that this array is correctly constructed, and that the sell() method works for any type of object.
+
+The moment you build the results array, that is polymorphism in action.
+
