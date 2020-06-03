@@ -1,0 +1,22 @@
+// Method overridding
+
+// https://codewithmosh.com/courses/310571/lectures/4881280
+// https://codewithmosh.com/courses/310571/lectures/4881279
+
+Create the same constructors, Product, Course, Tshirt from the objects-prototype-method-overriding.js
+
+But this time, do not use extend anymore.
+Do not use inheritance between Product and Course and neither between Product and Tshirt
+
+Define a mixin called "isProduct" that will have the sell method and the toString method as the ones that are now
+attached to the Product.prototype.
+
+Define another mixin called "priceToReais" which will have the priceToReais method.
+
+
+Then use Object.assign to add these behaviours (mixins) to all Course and Tshirt objects.
+
+Test all of it with jest.
+
+
+
