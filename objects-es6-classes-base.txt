@@ -1,0 +1,35 @@
+// ES6 classes
+// https://codewithmosh.com/courses/310571/lectures/4881376
+
+
+This time we will use ES6 classes, to define the constructors Product, Course and Tshirt.
+
+In this exercise, we will just define the constructors but with ES6 classes, and without using inheritance yet.
+
+- Change Product constructor to ES6 class
+- add sell, priceToReais, and toString to the Product class
+
+- change Course constructor to ES6 class
+- add in the Course class its own toString method
+- add one more method, that is specific to the course, for example: getAuthor(). Make sure you modify the constructor of course to take author as well
+
+
+- change Tshirt constructor to ES6 class
+- add in the Tshirt constructor the toString method
+- add another method called getSize()
+
+
+Write Jest tests for each object
+For a Product object verify in the Jest test:
+- the result of the toString()
+- the result of priceToReais
+- the result of sell()
+
+For Course object verify in the Jest test:
+- the result of the toString()
+- the result of the getAuthor()
+
+For the Tshirt object verify in the Jest test:
+- the result of the toString()
+- the result of the getSize()
+
