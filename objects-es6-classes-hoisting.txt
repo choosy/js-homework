@@ -1,0 +1,2 @@
+Test that creating a class using the "Class declaration" syntax and the "Class expression" syntax, the classes are not hoisted, so you cannot call them above the point where they were declared.
+

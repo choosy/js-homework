@@ -1,0 +1,9 @@
+// https://codewithmosh.com/courses/310571/lectures/4881367
+
+Create an example function using the function declaration syntax in JS.
+Create another example function using the function expression syntax.
+
+Test manually in the console that you cannot call the function that you made with function declaration, before you declared it.
+Test then also that you CAN indeed call the function that you created with the expression syntax..so you can call this above where it was declared.
+
+
