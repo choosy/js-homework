@@ -1,0 +1,18 @@
+Create a completely new folder and Github repository with an Express application started from scratch.
+
+Here, create routes for:
+- creating a product
+- showing a product
+- editing a product
+
+The actual route functions will not perform any action in a database, and not even nunjucks will be used.
+The route functions will just return a debug response to the server, to show what request it received. For example, when creating a product the response will be:
+
+Received a POST request to /products/create with the following body:
+
+name: my product
+price: 23
+currency: usd
+
+
+Test all of it with Cypress
