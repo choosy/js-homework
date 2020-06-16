@@ -1,0 +1,13 @@
+// Static methods
+// https://codewithmosh.com/courses/310571/lectures/4881368
+
+
+Use the objects and prototypes created in the objects-prototype-method-overriding.js exercise
+
+Create just the Product class -> that will make new product objects.
+
+Make sell and toString as instance methods in the class.
+
+However, make priceToReais a static method.
+Now, show that this static method does not have access to this (or does it?). Since this method is called on a class and not on an instance object, you do not have a current object to take this.price attribute.
+So instead, how you can adapt that this method still works, and calculates the priceToReais but as a static method?
