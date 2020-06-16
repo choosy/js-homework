@@ -1,0 +1,33 @@
+There is a lot to read about async/await usage and promises and what not, but we start with the two links below
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function
+https://developer.mozilla.org/en-US/docs/Glossary/IIFE
+
+
+The IIFE (immediately invoked async functions) is useful for this exercise, since the exercise will a frontend js file (that will be tested and executed in the browser) and the main code will be in a IIFE just so we can mark it as async.
+
+So, create a file called: async-basic-hello-browser.js
+Modify (or create) an index.html or index-async.html that will load the script (file) above with the script tag and add the async and defer attributes into the script tag. See here: https://www.w3schools.com/tags/att_script_async.asp
+
+Inside our async-basic-hello-browser.js script, create the function that will execute our code, that will be an IIFE, anonymous and async -> so a function expression that you define and call immediately. But async.
+
+Also, outside our main anonymous IIFE, we define two more async functions:
+- buttonClicked() -> async function
+- messageInTheFuture(message, miliseconds) -> async function
+
+
+messageInTheFuture uses setTimeout to call the console.log of message after the number of miliseconds passed.
+So messageInTheFuture is async, so when you call it you need to call it with await in front, and it will console log a message after that number of miliseconds passed.
+
+Last function to define is buttonClicked. This button clicked will console.log "hello button clicked" but will also call the messageInTheFuture with a message like "My message after button clicked after more 1000 miliseconds" ... and set this to execute 1000 miliseconds (1 second) later.
+
+Now inside our main IIFE, do in this order:
+- call messageInTheFuture after 2000 miliseconds
+- write the line of code that adds the click event listener to an html button, that will execute the buttonClicked function
+
+- console.log 'message1'
+- console.log 'message2'
+
+Play with loading the page, and clicking the button and observe the order in which the console logged message arrived.
+Are they in the same order that the lines of code were written?
+
+Comment your notes in the exercise.
