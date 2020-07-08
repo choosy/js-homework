@@ -1,0 +1,10 @@
+// https://codewithmosh.com/courses/310571/lectures/4881370
+
+Create a constructor with a method that will console log this keyword.
+Make a new object with that constructor, and call that method and observe the this output in the console. Comment the result.
+Then assign this method to a variable (remember functions are first-class citizens in JS, they can be passed around and assigned to other variables, just like expressions).
+Then, call this variable (that now is a function). Observe the this keyword. Use the strict mode, observe.
+
+Then do the same thing with a class, and comment the results.
+
+
