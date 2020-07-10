@@ -1,0 +1,16 @@
+// https://codewithmosh.com/courses/310571/lectures/4881369
+
+Here Mosh teaches us how to create private members. Properties and methods that are private means they not accessible from outside the object. Only from methods within the object.
+
+
+Create a Course class that has the following public properties: url, author, title.
+Create a private property called _price_usd using Symbols().
+Implement a public method, getPrice(currency). We make this method public on purpose, so that it is the one that can be accessed from outside of the object (from the same file or other modules of our project).
+This getPrice(currency) can receive as currency only two values: 'usd', 'real'. Make sure it raises an error otherwise.
+This method, will use the private property _price_usd to:
+- return the actual value of _price_usd if currency was 'usd'
+- transform to the value in reais and return that value if the currency was 'usd'
+
+Create another public method, called test() for testing purposes.
+Create also a private method called _insert_to_db() that will just console.log the message 'Course has been inserted to the db'.
+Try accessing this from outside the object, and also try to access this from inside, from the test() public method.
