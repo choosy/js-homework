@@ -1,0 +1,5 @@
+Create a person class with the following private properties: _firstName, _lastName. And with the following public properties: sex, age
+All the properties will be received as parameters by the constructor functions, and will be set as properties in the constructor.
+
+Create also a private method called _whoAmI() that will return something like 'John Doe, 23 m'. Then also implement the toString() method to call and return the result of _whoAmI().
+
