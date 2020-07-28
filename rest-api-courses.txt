@@ -1,0 +1,28 @@
+Create a project from scratch based on Node and Express that exposes a REST API.
+
+This will be used by programmers and partners around the world that will interact with our platform in a programmatic way.
+
+The REST API's role is here to manage courses. So our entity is a "course".
+
+A course will have the following fields:
+- id
+- name
+- author
+- price
+
+When adding courses, normally a REST API backend will communicate with a database to store the courses there. In this exercise, we will NOT use a database, but a json file, as a method of storage.
+
+The REST operations to implement for the course entity will be:
+- create a course
+- delete a course
+- update a course
+
+
+Test your REST API with:
+- a sepparate JS code -> that does not belong to this project
+- curl
+- insomnia
+
+
+
+
